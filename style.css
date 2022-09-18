@@ -4,3 +4,42 @@
     margin: 0;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 1.45rem;
+}
+
+.asam,
+.gudeg,
+.lodho {
+    height: auto;
+    width: 30rem;
+}
+
+.description {
+    width: 30rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 2rem;
+    background-color: olivedrab;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+nav img {
+    height: auto;
+    width: 16rem;
+}
+
+footer p {
+    text-align: center;
+}
